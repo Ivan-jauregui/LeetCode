@@ -1,6 +1,6 @@
 package org.example;
 
-import org.example.ReverseInteger.Solution;
+import org.example.maxArea.Solution;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
@@ -10,7 +10,8 @@ import java.util.stream.IntStream;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println(Solution.reverse(-123));
+        System.out.println(Solution.maxArea(new int[]{1, 8, 6, 2, 5, 4, 8, 3, 7}));
+
     }
 
 }
